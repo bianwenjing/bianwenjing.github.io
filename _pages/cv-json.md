@@ -7,7 +7,7 @@ redirect_from:
   - /resume-json
 ---
 
-{% include base_path %}
+<!-- {% include base_path %}
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/cv-style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -27,7 +27,7 @@ redirect_from:
   }
 </style>
 
-{% include cv-template.html %}
+{% include cv-template.html %} -->
 
 <div class="cv-download-links">
   <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
