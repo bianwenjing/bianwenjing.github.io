@@ -24,7 +24,11 @@ My research focuses on reconstructing and understanding the 3D world from images
   * Research Intern
   * 3D understanding for indoor scenes
 
-## Publications
+## Publications {#publications}
+
+<div class="publications-header">
+  <p>You can also find my articles on <a href="https://scholar.google.com/citations?user=IVfbqkgAAAAJ&hl=en" target="_blank" class="scholar-link">my Google Scholar profile</a>.</p>
+</div>
 
 <div class="publications-scroll">
   <div class="scroll-container">
@@ -89,6 +93,34 @@ My research focuses on reconstructing and understanding the 3D world from images
 </div>
 
 <style>
+.publications-header {
+  text-align: center;
+  margin: 20px 0 30px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #007acc;
+}
+
+.publications-header p {
+  margin: 0;
+  color: #555;
+  font-size: 0.95em;
+}
+
+.scholar-link {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.scholar-link:hover {
+  color: #005a99;
+  border-bottom-color: #007acc;
+}
+
 .publications-scroll {
   margin: 20px 0;
   position: relative;
