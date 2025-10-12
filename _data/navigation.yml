@@ -12,7 +12,7 @@ main:
     url: /about/
 
   - title: "Publications"
-    url: /publications/
+    url: https://scholar.google.com/citations?user=IVfbqkgAAAAJ&hl=en
 
   # - title: "Talks"
   #   url: /talks/    
