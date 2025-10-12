@@ -26,51 +26,164 @@ My research focuses on reconstructing and understanding the 3D world from images
 
 ## Publications
 
-* **Seeing in the Dark: Benchmarking Egocentric 3D Vision with the Oxford Day-and-Night Dataset** (NeurIPS 2025)
-   * Zirui Wang¹, **Wenjing Bian**¹, Xinghui Li¹, Yifu Tao, Jianeng Wang, Maurice Fallon, Victor Adrian Prisacariu
-  * [Project Page](https://oxdan.active.vision)
-  * ![Oxford Day-and-Night Dataset](/images/odan.png)
+<div class="publications-scroll">
+  <div class="scroll-container">
+    <div class="scroll-wrapper">
+      <div class="publication-card">
+        <h3>Seeing in the Dark: Benchmarking Egocentric 3D Vision with the Oxford Day-and-Night Dataset</h3>
+        <p class="venue">NeurIPS 2025</p>
+        <p class="authors">Zirui Wang¹, <strong>Wenjing Bian</strong>¹, Xinghui Li¹, Yifu Tao, Jianeng Wang, Maurice Fallon, Victor Adrian Prisacariu</p>
+        <a href="https://oxdan.active.vision" target="_blank">Project Page</a>
+        <img src="/images/odan.png" alt="Oxford Day-and-Night Dataset">
+      </div>
+      
+      <div class="publication-card">
+        <h3>Scene Coordinate Reconstruction Priors</h3>
+        <p class="venue">ICCV 2025</p>
+        <p class="authors"><strong>Wenjing Bian</strong>, Axel Barroso-Laguna, Tommaso Cavallari, Victor Adrian Prisacariu, Eric Brachmann</p>
+        <a href="https://nianticspatial.github.io/scr-priors/" target="_blank">Project Page</a>
+        <img src="/images/scr.png" alt="Scene Coordinate Reconstruction Priors">
+      </div>
+      
+      <div class="publication-card">
+        <h3>CatFree3D: Category-agnostic 3D Object Detection with Diffusion</h3>
+        <p class="venue">3DV 2025 Oral</p>
+        <p class="authors"><strong>Wenjing Bian</strong>, Zirui Wang, Andrea Vedaldi</p>
+        <a href="https://bianwenjing.github.io/CatFree3D/" target="_blank">Project Page</a>
+        <img src="/images/catfree.png" alt="CatFree3D">
+      </div>
+      
+      <div class="publication-card">
+        <h3>CrossScore: Towards Multi-View Image Evaluation and Scoring</h3>
+        <p class="venue">ECCV 2024</p>
+        <p class="authors">Zirui Wang, <strong>Wenjing Bian</strong>, Victor Adrian Prisacariu</p>
+        <a href="https://crossscore.active.vision/" target="_blank">Project Page</a>
+        <img src="/images/crossscore.png" alt="CrossScore">
+      </div>
+      
+      <div class="publication-card">
+        <h3>PoRF: Pose Residual Field for Accurate Neural Surface Reconstruction</h3>
+        <p class="venue">ICLR 2024</p>
+        <p class="authors">Jiawang Bian, <strong>Wenjing Bian</strong>, Victor Adrian Prisacariu, Philip Torr</p>
+        <a href="https://porf.active.vision/" target="_blank">Project Page</a>
+        <img src="/images/porf.png" alt="PoRF">
+      </div>
+      
+      <div class="publication-card">
+        <h3>NoPe-NeRF: Optimising Neural Radiance Field with No Pose</h3>
+        <p class="venue">CVPR 2023 Highlight</p>
+        <p class="authors"><strong>Wenjing Bian</strong>, Zirui Wang, Kejie Li, Jiawang Bian, Victor Adrian Prisacariu</p>
+        <a href="https://nope-nerf.active.vision/" target="_blank">Project Page</a>
+        <img src="/images/nopenerf.png" alt="NoPe-NeRF">
+      </div>
+      
+      <div class="publication-card">
+        <h3>Ray-ONet: Efficient 3D Reconstruction From A Single RGB Image</h3>
+        <p class="venue">BMVC 2021</p>
+        <p class="authors"><strong>Wenjing Bian</strong>, Zirui Wang, Kejie Li, Victor Adrian Prisacariu</p>
+        <a href="https://rayonet.active.vision/" target="_blank">Project Page</a>
+        <img src="/images/rayonet.png" alt="Ray-ONet">
+      </div>
+    </div>
+  </div>
+</div>
 
-<br>
+<style>
+.publications-scroll {
+  margin: 20px 0;
+  position: relative;
+}
 
-* **Scene Coordinate Reconstruction Priors** (ICCV 2025)
-  * **Wenjing Bian**, Axel Barroso-Laguna, Tommaso Cavallari, Victor Adrian Prisacariu, Eric Brachmann
-  * [Project Page](https://nianticspatial.github.io/scr-priors/)
-  * ![Scene Coordinate Reconstruction Priors](/images/scr.png)
+.scroll-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
 
-<br>
+.scroll-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 20px;
+}
 
-* **CatFree3D: Category-agnostic 3D Object Detection with Diffusion** (3DV 2025 Oral)
-  * **Wenjing Bian**, Zirui Wang, Andrea Vedaldi
-  * [Project Page](https://bianwenjing.github.io/CatFree3D/)
-  * ![CatFree3D](/images/catfree.png)
+.publication-card {
+  width: 100%;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-<br>
+.publication-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
 
-* **CrossScore: Towards Multi-View Image Evaluation and Scoring** (ECCV 2024)
-  * Zirui Wang, **Wenjing Bian**, Victor Adrian Prisacariu
-  * [Project Page](https://crossscore.active.vision/)
-  * ![CrossScore](/images/crossscore.png)
+.publication-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+  line-height: 1.3;
+}
 
-<br>
+.publication-card .venue {
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
 
-* **PoRF: Pose Residual Field for Accurate Neural Surface Reconstruction** (ICLR 2024)
-  * Jiawang Bian, **Wenjing Bian**, Victor Adrian Prisacariu, Philip Torr
-  * [Project Page](https://porf.active.vision/)
-  * ![PoRF](/images/porf.png)
+.publication-card .authors {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
 
-<br>
-* **NoPe-NeRF: Optimising Neural Radiance Field with No Pose** (CVPR 2023 Highlight) 
-  * **Wenjing Bian**, Zirui Wang, Kejie Li, Jiawang Bian, Victor Adrian Prisacariu
-  * [Project Page](https://nope-nerf.active.vision/)
-  * ![NoPe-NeRF](/images/nopenerf.png)
+.publication-card a {
+  color: #007acc;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
 
-<br>
+.publication-card a:hover {
+  text-decoration: underline;
+}
 
-* **Ray-ONet: Efficient 3D Reconstruction From A Single RGB Image** (BMVC 2021)
-  * **Wenjing Bian**, Zirui Wang, Kejie Li, Victor Adrian Prisacariu
-  * [Project Page](https://rayonet.active.vision/)
-  * ![Ray-ONet](/images/rayonet.png)
+.publication-card img {
+  max-width: 100%;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .publication-card {
+    padding: 20px;
+  }
+  
+  .publication-card h3 {
+    font-size: 1.1em;
+  }
+  
+  .scroll-wrapper {
+    gap: 20px;
+    padding: 0 15px;
+  }
+}
+</style>
+
 
 <!-- <br>
 
