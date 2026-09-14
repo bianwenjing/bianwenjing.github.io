@@ -8,15 +8,23 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  - title: "News"
+    url: /#news
+
   - title: "Publications"
     url: /#publications
 
-  # - title: "Talks"
-  #   url: /talks/    
+  - title: "Teaching"
+    url: /#teaching
 
+  # - title: "Talks"
+  #   url: /talks/
+
+  # NOTE: this points at the separate _pages/teaching.html collection page,
+  # not the Teaching section on the front page linked above.
   # - title: "Teaching"
-  #   url: /teaching/    
-    
+  #   url: /teaching/
+
   # - title: "Portfolio"
   #   url: /portfolio/
         

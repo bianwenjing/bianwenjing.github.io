@@ -8,7 +8,27 @@ redirect_from:
 ---
 I am a Postdoctoral Researcher in the [Autonomous Vision Group](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/) at the University of Tübingen, working with [Prof. Andreas Geiger](https://www.cvlibs.net/). 
 I received my DPhil in Engineering in 2025 from the [Active Vision Lab](https://www.robots.ox.ac.uk/~lav/) at the University of Oxford, under the supervision of [Prof. Victor Adrian Prisacariu](https://www.robots.ox.ac.uk/~victor/) and [Prof. Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi). Prior to that, I completed my MEng at Oxford, graduating with First-Class Honours.
-My research focuses on reconstructing and understanding the 3D world from images and videos.
+
+I am interested in 3D reconstruction, generation, and understanding, with a focus on capturing object structure, articulation, and physical properties to build simulation-ready scenes for embodied AI. If these topics align with your interests, feel free to reach out to discuss research ideas and potential collaborations.
+
+## News {#news}
+
+<div class="news-list">
+  <div class="news-item">
+    <span class="news-date">Sep 2026</span>
+    <span class="news-text">Co-organising the <strong>Embodied Multimodal Reasoning in Physical Environments (EMR)</strong> workshop at ECCV 2026.</span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">Oct 2025</span>
+    <span class="news-text">Started as a <strong>Postdoctoral Researcher</strong> in the Autonomous Vision Group at the University of Tübingen.</span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">Sep 2025</span>
+    <span class="news-text">Obtained my <strong>DPhil in Engineering</strong> from the University of Oxford.</span>
+  </div>
+</div>
 
 ## Work Experience
 
@@ -92,7 +112,76 @@ My research focuses on reconstructing and understanding the 3D world from images
   </div>
 </div>
 
+## Teaching {#teaching}
+
+* **[Practical: Autonomous Robotics with Duckietown](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/projects/autonomous-robotics-with-duckietown/)**, University of Tübingen (Summer 2026)
+  * Instructor
+  * Master's practical on autonomous robotics
+
 <style>
+.news-list {
+  margin: 20px 0 30px 0;
+  max-height: 320px;
+  overflow-y: auto;
+  padding: 5px 15px 5px 5px;
+  border-left: 4px solid #007acc;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.news-item {
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+  padding: 10px 12px;
+  border-bottom: 1px solid #e6e8ea;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  flex: 0 0 85px;
+  color: #007acc;
+  font-weight: 600;
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+
+.news-text {
+  color: #555;
+  font-size: 0.92em;
+  line-height: 1.5;
+}
+
+html[data-theme="dark"] .news-list {
+  background: #525252;
+}
+
+html[data-theme="dark"] .news-item {
+  border-bottom-color: #676767;
+}
+
+html[data-theme="dark"] .news-text {
+  color: #e8e8e8;
+}
+
+html[data-theme="dark"] .news-date {
+  color: #0ea1c5;
+}
+
+@media (max-width: 768px) {
+  .news-item {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .news-date {
+    flex: none;
+  }
+}
+
 .publications-header {
   text-align: center;
   margin: 20px 0 30px 0;
