@@ -102,7 +102,7 @@ I am interested in 3D reconstruction, generation, and understanding, with a focu
       </div>
       
       <div class="publication-card">
-        <h3>NoPe-NeRF: Optimising Neural Radiance Field with No Pose</h3>
+        <h3>NoPe-NeRF: Optimising Neural Radiance Field with No Pose Prior</h3>
         <p class="venue">CVPR 2023 Highlight</p>
         <p class="authors"><strong>Wenjing Bian</strong>, Zirui Wang, Kejie Li, Jiawang Bian, Victor Adrian Prisacariu</p>
         <p style="margin:0 0 20px"><a href="https://nope-nerf.active.vision/" target="_blank">Project Page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2212.07388" target="_blank">arXiv</a></p>
