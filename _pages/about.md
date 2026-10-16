@@ -65,7 +65,7 @@ I am interested in 3D reconstruction, generation, and understanding, with a focu
         <h3>Seeing in the Dark: Benchmarking Egocentric 3D Vision with the Oxford Day-and-Night Dataset</h3>
         <p class="venue">NeurIPS 2025</p>
         <p class="authors">Zirui Wang¹, <strong>Wenjing Bian</strong>¹, Xinghui Li¹, Yifu Tao, Jianeng Wang, Maurice Fallon, Victor Adrian Prisacariu</p>
-        <a href="https://oxdan.active.vision" target="_blank">Project Page</a>
+        <p style="margin:0 0 20px"><a href="https://oxdan.active.vision" target="_blank">Project Page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2506.04224" target="_blank">arXiv</a></p>
         <img src="/images/odan.png" alt="Oxford Day-and-Night Dataset">
       </div>
       
@@ -73,7 +73,7 @@ I am interested in 3D reconstruction, generation, and understanding, with a focu
         <h3>Scene Coordinate Reconstruction Priors</h3>
         <p class="venue">ICCV 2025</p>
         <p class="authors"><strong>Wenjing Bian</strong>, Axel Barroso-Laguna, Tommaso Cavallari, Victor Adrian Prisacariu, Eric Brachmann</p>
-        <a href="https://nianticspatial.github.io/scr-priors/" target="_blank">Project Page</a>
+        <p style="margin:0 0 20px"><a href="https://nianticspatial.github.io/scr-priors/" target="_blank">Project Page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2510.12387" target="_blank">arXiv</a></p>
         <img src="/images/scr.png" alt="Scene Coordinate Reconstruction Priors">
       </div>
       
@@ -81,7 +81,7 @@ I am interested in 3D reconstruction, generation, and understanding, with a focu
         <h3>CatFree3D: Category-agnostic 3D Object Detection with Diffusion</h3>
         <p class="venue">3DV 2025 Oral</p>
         <p class="authors"><strong>Wenjing Bian</strong>, Zirui Wang, Andrea Vedaldi</p>
-        <a href="https://bianwenjing.github.io/CatFree3D/" target="_blank">Project Page</a>
+        <p style="margin:0 0 20px"><a href="https://bianwenjing.github.io/CatFree3D/" target="_blank">Project Page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2408.12747" target="_blank">arXiv</a></p>
         <img src="/images/catfree.png" alt="CatFree3D">
       </div>
       
@@ -89,7 +89,7 @@ I am interested in 3D reconstruction, generation, and understanding, with a focu
         <h3>CrossScore: Towards Multi-View Image Evaluation and Scoring</h3>
         <p class="venue">ECCV 2024</p>
         <p class="authors">Zirui Wang, <strong>Wenjing Bian</strong>, Victor Adrian Prisacariu</p>
-        <a href="https://crossscore.active.vision/" target="_blank">Project Page</a>
+        <p style="margin:0 0 20px"><a href="https://crossscore.active.vision/" target="_blank">Project Page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2404.14409" target="_blank">arXiv</a></p>
         <img src="/images/crossscore.png" alt="CrossScore">
       </div>
       
@@ -97,7 +97,7 @@ I am interested in 3D reconstruction, generation, and understanding, with a focu
         <h3>PoRF: Pose Residual Field for Accurate Neural Surface Reconstruction</h3>
         <p class="venue">ICLR 2024</p>
         <p class="authors">Jiawang Bian, <strong>Wenjing Bian</strong>, Victor Adrian Prisacariu, Philip Torr</p>
-        <a href="https://porf.active.vision/" target="_blank">Project Page</a>
+        <p style="margin:0 0 20px"><a href="https://porf.active.vision/" target="_blank">Project Page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2310.07449" target="_blank">arXiv</a></p>
         <img src="/images/porf.png" alt="PoRF">
       </div>
       
@@ -105,7 +105,7 @@ I am interested in 3D reconstruction, generation, and understanding, with a focu
         <h3>NoPe-NeRF: Optimising Neural Radiance Field with No Pose</h3>
         <p class="venue">CVPR 2023 Highlight</p>
         <p class="authors"><strong>Wenjing Bian</strong>, Zirui Wang, Kejie Li, Jiawang Bian, Victor Adrian Prisacariu</p>
-        <a href="https://nope-nerf.active.vision/" target="_blank">Project Page</a>
+        <p style="margin:0 0 20px"><a href="https://nope-nerf.active.vision/" target="_blank">Project Page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2212.07388" target="_blank">arXiv</a></p>
         <img src="/images/nopenerf.png" alt="NoPe-NeRF">
       </div>
       
@@ -113,7 +113,7 @@ I am interested in 3D reconstruction, generation, and understanding, with a focu
         <h3>Ray-ONet: Efficient 3D Reconstruction From A Single RGB Image</h3>
         <p class="venue">BMVC 2021</p>
         <p class="authors"><strong>Wenjing Bian</strong>, Zirui Wang, Kejie Li, Victor Adrian Prisacariu</p>
-        <a href="https://rayonet.active.vision/" target="_blank">Project Page</a>
+        <p style="margin:0 0 20px"><a href="https://rayonet.active.vision/" target="_blank">Project Page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2107.01899" target="_blank">arXiv</a></p>
         <img src="/images/rayonet.png" alt="Ray-ONet">
       </div>
     </div>
