@@ -54,6 +54,14 @@ I am interested in 3D reconstruction, generation, and understanding, with a focu
   <div class="scroll-container">
     <div class="scroll-wrapper">
       <div class="publication-card">
+        <h3>ViewStruct: View-Grounded Articulation and Connectivity Inference</h3>
+        <p class="venue">arXiv 2026</p>
+        <p class="authors"><strong>Wenjing Bian</strong>, Ranran Huang, Andreas Geiger</p>
+        <p style="margin:0 0 20px"><a href="https://bianwenjing.github.io/viewstruct/" target="_blank">Project Page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2610.16793" target="_blank">arXiv</a></p>
+        <img src="/images/viewstruct.jpg" alt="ViewStruct">
+      </div>
+      
+      <div class="publication-card">
         <h3>Seeing in the Dark: Benchmarking Egocentric 3D Vision with the Oxford Day-and-Night Dataset</h3>
         <p class="venue">NeurIPS 2025</p>
         <p class="authors">Zirui Wang¹, <strong>Wenjing Bian</strong>¹, Xinghui Li¹, Yifu Tao, Jianeng Wang, Maurice Fallon, Victor Adrian Prisacariu</p>
